@@ -20,7 +20,7 @@ public class SpawnerScript : MonoBehaviour
     void Start()
     {
         SmallCubeSpawnTime = 1.0f;
-        BigCubeSpawnTime = 30.0f;
+        BigCubeSpawnTime = 30.0f; // 30초 
     }
 
     // Update is called once per frame

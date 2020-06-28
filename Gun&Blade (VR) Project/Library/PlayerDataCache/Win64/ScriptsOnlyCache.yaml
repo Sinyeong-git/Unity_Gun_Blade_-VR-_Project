@@ -621,6 +621,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -1600,7 +1602,7 @@ ScriptsOnlyBuild:
     className: SteamVR_ForceSteamVRMode
   - hash:
       serializedVersion: 2
-      Hash: 7762d2bbdd11630e4420cd51fdfb7d09
+      Hash: dac00dd9d15132f8c6755c75a36dee3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SmallCubeScript
@@ -1900,7 +1902,7 @@ ScriptsOnlyBuild:
     className: IgnoreHovering
   - hash:
       serializedVersion: 2
-      Hash: 0c7fc8e31f030595a451622233c3096e
+      Hash: d020b62f900a0065f55060b97231c89e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SaberScript
@@ -2155,4 +2157,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/shin/Desktop/prototype/New Unity Project.exe
+  playerPath: C:/Users/shin/Desktop/Gun&Blade 1.1/New Unity Project.exe

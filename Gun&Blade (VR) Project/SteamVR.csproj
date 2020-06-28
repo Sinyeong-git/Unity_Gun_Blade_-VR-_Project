@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AE65CC92-D0B0-08AA-BC06-42FC41B39581}</ProjectGuid>
+    <ProjectGuid>{A4813D94-1194-4429-C52B-8BE2D1A2D2CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR</AssemblyName>
@@ -255,10 +255,10 @@
     <None Include="Assets\AssetStore\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
     <None Include="Assets\AssetStore\SteamVR\Resources\SteamVR_Fade.shader" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -450,16 +450,16 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="PackageManagerAssembly">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/ParticlePack/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/ParticlePack/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -809,7 +809,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{1EDD4579-6E50-3644-25EA-E99157E52965}</Project>
+      <Project>{B70F103C-05D4-7C44-B6DF-D49A7200C45D}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>

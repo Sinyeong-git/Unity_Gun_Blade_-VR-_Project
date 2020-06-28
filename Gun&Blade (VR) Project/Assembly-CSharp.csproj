@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1A615BEF-4D5F-2ABD-4E5A-44D81FF749C4}</ProjectGuid>
+    <ProjectGuid>{03719BDB-D015-4AA5-23EE-FDBAC682127C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -84,7 +84,6 @@
     <Compile Include="Assets\AssetStore\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\AssetStore\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\AssetStore\ParticlePack\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\PlayerSpawnController.cs" />
     <Compile Include="Assets\Scripts\AvoidCubeScript.cs" />
     <Compile Include="Assets\Scripts\BigCubeScript.cs" />
     <Compile Include="Assets\Scripts\DroneBulletScript.cs" />
@@ -102,6 +101,7 @@
     <Compile Include="Assets\Scripts\LastArea.cs" />
     <Compile Include="Assets\Scripts\LastAreaForAvoidCube.cs" />
     <Compile Include="Assets\Scripts\MainMenuUI\GameStart.cs" />
+    <Compile Include="Assets\Scripts\PlayerSpawnController.cs" />
     <Compile Include="Assets\Scripts\ReloadCollider.cs" />
     <Compile Include="Assets\Scripts\SaberScript.cs" />
     <Compile Include="Assets\Scripts\SmallCubeScript.cs" />
@@ -131,49 +131,49 @@
     <None Include="Assets\AssetStore\ParticlePack\EffectExamples\Misc Effects\Shaders\Dissolve.shader" />
     <None Include="Assets\AssetStore\ParticlePack\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -353,10 +353,10 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -715,23 +715,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{1ABE8ACD-8CD9-D140-3076-4AF7E5C1D7B4}</Project>
+      <Project>{E05F3955-6A6B-BEEF-1DB7-DF793A12090F}</Project>
       <Name>SteamVR_Input_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{069F88C2-60B9-EF1A-A7A2-4893123354D9}</Project>
+      <Project>{27F62E32-4F39-6D58-AA0F-2DB8D6BBA975}</Project>
       <Name>SteamVR_Editor</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{A89E4400-6F3F-982C-6AB5-80FEA17AE06F}</Project>
+      <Project>{3344DDB7-08EE-255E-6887-D5259320281D}</Project>
       <Name>SteamVR_Actions</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{AE65CC92-D0B0-08AA-BC06-42FC41B39581}</Project>
+      <Project>{A4813D94-1194-4429-C52B-8BE2D1A2D2CD}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
-      <Project>{1EDD4579-6E50-3644-25EA-E99157E52965}</Project>
+      <Project>{B70F103C-05D4-7C44-B6DF-D49A7200C45D}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
     </ProjectReference>
   </ItemGroup>

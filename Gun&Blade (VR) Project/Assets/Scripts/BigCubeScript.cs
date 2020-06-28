@@ -42,6 +42,7 @@ public class BigCubeScript : MonoBehaviour, IDamageAble
 
     public void OnDamageGun(float damageAmount)
     {
+
         if (BigCube_State == State.HitOn)
         {
 

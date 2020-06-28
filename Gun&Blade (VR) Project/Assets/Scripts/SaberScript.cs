@@ -14,10 +14,14 @@ public class SaberScript : MonoBehaviour
 
     public int Saber_Damage = 5;
 
+    public AudioSource SaberAudioPlayer; //세이버 효과음 재생기
+    public AudioClip SaberSwing; // 세이버 스윙 효과음
+    public AudioClip SaberHit; // 세이버 피격 효과음
+
     // Start is called before the first frame update
     void Start()
     {
-
+ 
     }
 
     void OnTriggerEnter(Collider col) 
@@ -28,10 +32,18 @@ public class SaberScript : MonoBehaviour
             //그냥 가까이 대고 있는건 일단 파괴 안함
             if (Contrlloer_velocity > 2)
             {
+
                 IDamageAble target = col.GetComponent<IDamageAble>();
                 //IDamageAble 인터페이스 존재시 데미지 계산
                 if (target != null)
                 {
+                    //이미 총 발사 소리일경우 생략
+                    if (SaberAudioPlayer.clip != SaberHit)
+                    {
+                        SaberAudioPlayer.clip = SaberHit;
+                    }
+                    SaberAudioPlayer.Play();
+
                     target.OnDamageSaber(Saber_Damage);
                 }
             }
@@ -49,6 +61,16 @@ public class SaberScript : MonoBehaviour
 
         //이전 컨틀로러 위치 값 대입
         previousPos = transform.position;
-        
+         
+        /* 괜찮은 효과음 구하면 사용
+        if (Contrlloer_velocity > 10)
+        {
+            if (SaberAudioPlayer.clip != SaberSwing)
+            {
+                SaberAudioPlayer.clip = SaberSwing;
+            }
+            SaberAudioPlayer.Play();
+        }
+        */
     }
 }

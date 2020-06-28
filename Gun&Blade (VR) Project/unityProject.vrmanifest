@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.newunityproject.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\unity\\Unity_VR_Project\\VR_GunGame_steamVR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\unity\\Unity_Gun_Blade_-VR-_Project\\Gun&Blade (VR) Project\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "New Unity Project [Testing]"

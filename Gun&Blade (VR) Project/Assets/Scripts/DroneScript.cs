@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DroneScript : MonoBehaviour, IDamageAble
 {
+
     public GameObject Type;
     public Transform ParentPoint;
 
@@ -29,6 +30,7 @@ public class DroneScript : MonoBehaviour, IDamageAble
 
     public void OnDamageSaber(float damageAmount)
     {
+
         if (hit_state == State.HitOn) {
 
             health -= damageAmount;
@@ -42,6 +44,7 @@ public class DroneScript : MonoBehaviour, IDamageAble
 
     public void OnDamageGun(float damageAmount)
     {
+
         if (hit_state == State.HitOn)
         {
             health -= damageAmount;

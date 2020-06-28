@@ -16,12 +16,18 @@ public class SmallCubeScript : MonoBehaviour , IDamageAble
     //큐브 HP
     public float health = 1;
 
+    //파티클 변수
+    public ParticleSystem SamllCubeHitParticle; // 피격 파티클
 
-   
     public void OnDamageGun(float damageAmount)
     {
+
+        SamllCubeHitParticle.Play(); // 머즐 플래시 파티클 재생
+
         // Debug.Log("Got Damage!");
         health -= damageAmount;
+
+
 
         if (health <= 0)
         {
@@ -31,6 +37,9 @@ public class SmallCubeScript : MonoBehaviour , IDamageAble
     }
     public void OnDamageSaber(float damageAmount)
     {
+
+        SamllCubeHitParticle.Play(); // 머즐 플래시 파티클 재생
+
         // Debug.Log("Got Damage!");
         health -= damageAmount;
 

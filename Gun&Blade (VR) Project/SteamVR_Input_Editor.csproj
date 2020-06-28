@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1ABE8ACD-8CD9-D140-3076-4AF7E5C1D7B4}</ProjectGuid>
+    <ProjectGuid>{E05F3955-6A6B-BEEF-1DB7-DF793A12090F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamVR_Input_Editor</AssemblyName>
@@ -83,16 +83,16 @@
     <Compile Include="Assets\AssetStore\SteamVR\Input\Editor\SteamVR_Input_PostProcessBuild.cs" />
     <Compile Include="Assets\AssetStore\SteamVR\Input\Editor\SteamVR_Skeleton_PoserEditor.cs" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -284,19 +284,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="PackageManagerAssembly">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/ParticlePack/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/ParticlePack/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Assets/AssetStore/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Assets/AssetStore/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/unity/Unity_VR_Project/VR_GunGame_steamVR/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/unity/Unity_Gun_Blade_-VR-_Project/Gun&amp;Blade (VR) Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -655,7 +655,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamVR.csproj">
-      <Project>{AE65CC92-D0B0-08AA-BC06-42FC41B39581}</Project>
+      <Project>{A4813D94-1194-4429-C52B-8BE2D1A2D2CD}</Project>
       <Name>SteamVR</Name>
     </ProjectReference>
   </ItemGroup>

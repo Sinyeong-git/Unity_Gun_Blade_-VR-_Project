@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 630c75b258ccb734b8cbb6e7ef7f5d7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MetalEffect: {fileID: 0}
   Type: {fileID: 7275831156000422578, guid: 2e71cf8a7ef5e7841af7defab355281e, type: 3}
   ParentPoint: {fileID: 7890987272455603749}
   HmdManager: {fileID: 0}
